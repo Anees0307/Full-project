@@ -1,0 +1,47 @@
+.register {
+    width: 400px;
+    background: #c5fff8;
+    border: 1px solid #dddfe2;
+    border-radius: 20px;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    margin-top:3%;
+    margin-left:34%;
+}
+body{
+    background-image: url("https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?cs=srgb&dl=pexels-donald-tong-189296.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.register > form input {
+    border-radius: 1px;
+    border: 2px solid rgb(0, 0, 0);
+    outline: none;
+    color: #1d2129;
+    margin: 2% 0;
+    width: 90%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: rgb(227, 224, 224);
+}
+
+.register > form button {
+    border-radius: 20px;
+    border: none;
+    background-color: #7b66ff;
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease, font-size 0.3s ease, font-style 0.3s ease, color 0.3s ease;
+}
+
+.register > form button:hover {
+    background-color: #3366cc;
+    font-size: 20px;
+    font-style: italic; 
+    color: #fd0000;
+}

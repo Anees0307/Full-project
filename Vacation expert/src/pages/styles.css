@@ -1,0 +1,17 @@
+
+.Card {
+    transition: transform 0.2s;
+  }
+  
+  .Card:hover {
+    transform: scale(1.05);
+  }
+  
+  .CardMedia {
+    transition: opacity 0.2s;
+  }
+  
+  .Card:hover .CardMedia {
+    opacity: 0.8;
+  }
+  

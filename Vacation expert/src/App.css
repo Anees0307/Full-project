@@ -1,0 +1,10 @@
+.App {
+    display: flex;
+    width: 100vw;
+    height: 150vh;
+    justify-content: center;
+    align-items: center;
+    background-size:1250px;
+    background-repeat: no-repeat;
+    background-image: url("https://i.pinimg.com/564x/3a/aa/b8/3aaab8e5a4ab9dc9e665ce5640b4d4c1.jpg");
+  }
